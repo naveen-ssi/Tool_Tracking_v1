@@ -1,0 +1,61 @@
+# ---- Python / build ----
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---- Environments / secrets ----
+.venv/
+venv/
+ENV/
+.env
+.env.*
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- ML artifacts ----
+runs/
+logs/
+wandb/
+checkpoints/
+#*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.tflite
+*.npz
+*.npy
+*.h5
+*.safetensors
+
+# ---- Datasets & exports ----
+#data/
+#datasets/
+#new_images_2000/
+#project_00-2/
+#surginst-2/
+
+# ---- Media (keep out of git; use LFS or releases) ----
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.flac
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# ---- Roboflow & YOLO clutter ----
+roboflow_*/
+runs/
