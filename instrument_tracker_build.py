@@ -22,7 +22,7 @@ def resource_path(relative_path):
     return os.path.join(base_path, relative_path)
 
 # Use the new function to find our bundled model file
-MODEL_PATH = resource_path("SIGNET3.pt")
+MODEL_PATH = resource_path("SIGNET4.pt")
 
 # UPDATED: Set VIDEO_SOURCE to 0 to use the default live camera/capture card
 VIDEO_SOURCE = 0 
